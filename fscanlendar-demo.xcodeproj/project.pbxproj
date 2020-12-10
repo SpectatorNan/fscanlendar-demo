@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18860C772581C55B00D7A095 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18860C762581C55B00D7A095 /* AppDelegate.swift */; };
+		18860C792581C55B00D7A095 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18860C782581C55B00D7A095 /* SceneDelegate.swift */; };
+		18860C7B2581C55B00D7A095 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18860C7A2581C55B00D7A095 /* ViewController.swift */; };
+		18860C7E2581C55B00D7A095 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18860C7C2581C55B00D7A095 /* Main.storyboard */; };
+		18860C802581C55C00D7A095 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18860C7F2581C55C00D7A095 /* Assets.xcassets */; };
+		18860C832581C55C00D7A095 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18860C812581C55C00D7A095 /* LaunchScreen.storyboard */; };
+		18860C8E2581C55D00D7A095 /* fscanlendar_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18860C8D2581C55C00D7A095 /* fscanlendar_demoTests.swift */; };
+		18860C992581C55D00D7A095 /* fscanlendar_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18860C982581C55D00D7A095 /* fscanlendar_demoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18860C8A2581C55C00D7A095 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18860C6B2581C55B00D7A095 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18860C722581C55B00D7A095;
+			remoteInfo = "fscanlendar-demo";
+		};
+		18860C952581C55D00D7A095 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18860C6B2581C55B00D7A095 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18860C722581C55B00D7A095;
+			remoteInfo = "fscanlendar-demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18860C732581C55B00D7A095 /* fscanlendar-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fscanlendar-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18860C762581C55B00D7A095 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18860C782581C55B00D7A095 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18860C7A2581C55B00D7A095 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18860C7D2581C55B00D7A095 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18860C7F2581C55C00D7A095 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18860C822581C55C00D7A095 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18860C842581C55C00D7A095 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18860C892581C55C00D7A095 /* fscanlendar-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fscanlendar-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18860C8D2581C55C00D7A095 /* fscanlendar_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fscanlendar_demoTests.swift; sourceTree = "<group>"; };
+		18860C8F2581C55D00D7A095 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18860C942581C55D00D7A095 /* fscanlendar-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fscanlendar-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18860C982581C55D00D7A095 /* fscanlendar_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fscanlendar_demoUITests.swift; sourceTree = "<group>"; };
+		18860C9A2581C55D00D7A095 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18860C702581C55B00D7A095 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18860C862581C55C00D7A095 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18860C912581C55D00D7A095 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18860C6A2581C55B00D7A095 = {
+			isa = PBXGroup;
+			children = (
+				18860C752581C55B00D7A095 /* fscanlendar-demo */,
+				18860C8C2581C55C00D7A095 /* fscanlendar-demoTests */,
+				18860C972581C55D00D7A095 /* fscanlendar-demoUITests */,
+				18860C742581C55B00D7A095 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18860C742581C55B00D7A095 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18860C732581C55B00D7A095 /* fscanlendar-demo.app */,
+				18860C892581C55C00D7A095 /* fscanlendar-demoTests.xctest */,
+				18860C942581C55D00D7A095 /* fscanlendar-demoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18860C752581C55B00D7A095 /* fscanlendar-demo */ = {
+			isa = PBXGroup;
+			children = (
+				18860C762581C55B00D7A095 /* AppDelegate.swift */,
+				18860C782581C55B00D7A095 /* SceneDelegate.swift */,
+				18860C7A2581C55B00D7A095 /* ViewController.swift */,
+				18860C7C2581C55B00D7A095 /* Main.storyboard */,
+				18860C7F2581C55C00D7A095 /* Assets.xcassets */,
+				18860C812581C55C00D7A095 /* LaunchScreen.storyboard */,
+				18860C842581C55C00D7A095 /* Info.plist */,
+			);
+			path = "fscanlendar-demo";
+			sourceTree = "<group>";
+		};
+		18860C8C2581C55C00D7A095 /* fscanlendar-demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				18860C8D2581C55C00D7A095 /* fscanlendar_demoTests.swift */,
+				18860C8F2581C55D00D7A095 /* Info.plist */,
+			);
+			path = "fscanlendar-demoTests";
+			sourceTree = "<group>";
+		};
+		18860C972581C55D00D7A095 /* fscanlendar-demoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18860C982581C55D00D7A095 /* fscanlendar_demoUITests.swift */,
+				18860C9A2581C55D00D7A095 /* Info.plist */,
+			);
+			path = "fscanlendar-demoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18860C722581C55B00D7A095 /* fscanlendar-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18860C9D2581C55D00D7A095 /* Build configuration list for PBXNativeTarget "fscanlendar-demo" */;
+			buildPhases = (
+				18860C6F2581C55B00D7A095 /* Sources */,
+				18860C702581C55B00D7A095 /* Frameworks */,
+				18860C712581C55B00D7A095 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fscanlendar-demo";
+			productName = "fscanlendar-demo";
+			productReference = 18860C732581C55B00D7A095 /* fscanlendar-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18860C882581C55C00D7A095 /* fscanlendar-demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18860CA02581C55D00D7A095 /* Build configuration list for PBXNativeTarget "fscanlendar-demoTests" */;
+			buildPhases = (
+				18860C852581C55C00D7A095 /* Sources */,
+				18860C862581C55C00D7A095 /* Frameworks */,
+				18860C872581C55C00D7A095 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18860C8B2581C55C00D7A095 /* PBXTargetDependency */,
+			);
+			name = "fscanlendar-demoTests";
+			productName = "fscanlendar-demoTests";
+			productReference = 18860C892581C55C00D7A095 /* fscanlendar-demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18860C932581C55D00D7A095 /* fscanlendar-demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18860CA32581C55D00D7A095 /* Build configuration list for PBXNativeTarget "fscanlendar-demoUITests" */;
+			buildPhases = (
+				18860C902581C55D00D7A095 /* Sources */,
+				18860C912581C55D00D7A095 /* Frameworks */,
+				18860C922581C55D00D7A095 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18860C962581C55D00D7A095 /* PBXTargetDependency */,
+			);
+			name = "fscanlendar-demoUITests";
+			productName = "fscanlendar-demoUITests";
+			productReference = 18860C942581C55D00D7A095 /* fscanlendar-demoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18860C6B2581C55B00D7A095 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					18860C722581C55B00D7A095 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					18860C882581C55C00D7A095 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 18860C722581C55B00D7A095;
+					};
+					18860C932581C55D00D7A095 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 18860C722581C55B00D7A095;
+					};
+				};
+			};
+			buildConfigurationList = 18860C6E2581C55B00D7A095 /* Build configuration list for PBXProject "fscanlendar-demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18860C6A2581C55B00D7A095;
+			productRefGroup = 18860C742581C55B00D7A095 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18860C722581C55B00D7A095 /* fscanlendar-demo */,
+				18860C882581C55C00D7A095 /* fscanlendar-demoTests */,
+				18860C932581C55D00D7A095 /* fscanlendar-demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18860C712581C55B00D7A095 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18860C832581C55C00D7A095 /* LaunchScreen.storyboard in Resources */,
+				18860C802581C55C00D7A095 /* Assets.xcassets in Resources */,
+				18860C7E2581C55B00D7A095 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18860C872581C55C00D7A095 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18860C922581C55D00D7A095 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18860C6F2581C55B00D7A095 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18860C7B2581C55B00D7A095 /* ViewController.swift in Sources */,
+				18860C772581C55B00D7A095 /* AppDelegate.swift in Sources */,
+				18860C792581C55B00D7A095 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18860C852581C55C00D7A095 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18860C8E2581C55D00D7A095 /* fscanlendar_demoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18860C902581C55D00D7A095 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18860C992581C55D00D7A095 /* fscanlendar_demoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18860C8B2581C55C00D7A095 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18860C722581C55B00D7A095 /* fscanlendar-demo */;
+			targetProxy = 18860C8A2581C55C00D7A095 /* PBXContainerItemProxy */;
+		};
+		18860C962581C55D00D7A095 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18860C722581C55B00D7A095 /* fscanlendar-demo */;
+			targetProxy = 18860C952581C55D00D7A095 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18860C7C2581C55B00D7A095 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18860C7D2581C55B00D7A095 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18860C812581C55C00D7A095 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18860C822581C55C00D7A095 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18860C9B2581C55D00D7A095 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18860C9C2581C55D00D7A095 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18860C9E2581C55D00D7A095 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "fscanlendar-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zgjd.fscanlendar-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18860C9F2581C55D00D7A095 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "fscanlendar-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zgjd.fscanlendar-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18860CA12581C55D00D7A095 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "fscanlendar-demoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zgjd.fscanlendar-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fscanlendar-demo.app/fscanlendar-demo";
+			};
+			name = Debug;
+		};
+		18860CA22581C55D00D7A095 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "fscanlendar-demoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zgjd.fscanlendar-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fscanlendar-demo.app/fscanlendar-demo";
+			};
+			name = Release;
+		};
+		18860CA42581C55D00D7A095 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "fscanlendar-demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zgjd.fscanlendar-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "fscanlendar-demo";
+			};
+			name = Debug;
+		};
+		18860CA52581C55D00D7A095 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "fscanlendar-demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zgjd.fscanlendar-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "fscanlendar-demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18860C6E2581C55B00D7A095 /* Build configuration list for PBXProject "fscanlendar-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18860C9B2581C55D00D7A095 /* Debug */,
+				18860C9C2581C55D00D7A095 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18860C9D2581C55D00D7A095 /* Build configuration list for PBXNativeTarget "fscanlendar-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18860C9E2581C55D00D7A095 /* Debug */,
+				18860C9F2581C55D00D7A095 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18860CA02581C55D00D7A095 /* Build configuration list for PBXNativeTarget "fscanlendar-demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18860CA12581C55D00D7A095 /* Debug */,
+				18860CA22581C55D00D7A095 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18860CA32581C55D00D7A095 /* Build configuration list for PBXNativeTarget "fscanlendar-demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18860CA42581C55D00D7A095 /* Debug */,
+				18860CA52581C55D00D7A095 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18860C6B2581C55B00D7A095 /* Project object */;
+}
